@@ -33,6 +33,7 @@ function showWeather(position) {
         });
 
     // Fetch weather data
+    //weather file
     fetch(weatherURL)
         .then(response => response.json())
         .then(data => {
