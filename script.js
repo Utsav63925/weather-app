@@ -51,5 +51,5 @@ function showWeather(position) {
 function showError() {
     alert("Location permission denied");
 }
-
+/**/
 
