@@ -34,7 +34,6 @@ function showWeather(position) {
 
     // Fetch weather data
     //weather file
-    /*comment */
     fetch(weatherURL)
         .then(response => response.json())
         .then(data => {
